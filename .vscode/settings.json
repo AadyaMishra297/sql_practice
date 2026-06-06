@@ -1,0 +1,29 @@
+{
+    "dbcode.connections": [
+        {
+            "connectionId": "8uW7WhBLxrhPNV8o3tDTz",
+            "name": "sqlpractice",
+            "driver": "mysql",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 3306,
+            "ssl": false,
+            "authMethod": "password",
+            "username": "root",
+            "password": "",
+            "savePassword": "secretStorage",
+            "readOnly": false,
+            "postConnectionSqlType": "inline",
+            "connectionTimeout": 30,
+            "pinnedConnectionTimeout": "0",
+            "driverOptions": {
+                "retrievePublickey": true,
+                "disableMultiStatements": false,
+                "permitLocalInfile": false
+            },
+            "introspection": {
+                "progressive": false
+            }
+        }
+    ]
+}
